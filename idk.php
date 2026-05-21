@@ -16,3 +16,9 @@ $stmt = $conn->prepare("INSERT INTO SUVA (TEKST) VALUES (?)");
 $stmt->execute([$tekst]);
 
 echo json_encode(["ok" => true]);
+<?php
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
+$host = "localhost";
+...
