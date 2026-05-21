@@ -5,7 +5,7 @@ error_reporting(E_ALL);
 $host = "localhost";
 $dbname = "ita25pajula_like_dislike";
 $user = "ita25pajula_robin";
-$pass = "sinu_parool";
+$pass = "tAbasalu1234";
 
 $conn = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
 
