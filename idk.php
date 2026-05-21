@@ -3,7 +3,7 @@ ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
 $host = "localhost";
-$dbname = "ita25pajula_like_dislike";
+$dbname = "ita25pajula_like_dislike.db";
 $user = "ita25pajula_robin";
 $pass = "-o;z+%)Not!j%{Va";
 
