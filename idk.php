@@ -2,8 +2,8 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-$host = "localhost";
-$dbname = "ita25pajula_like_dislike.db";
+$host = "127.0.0.1";
+$dbname = "ita25pajula_like_dislike";
 $user = "ita25pajula_robin";
 $pass = "-o;z+%)Not!j%{Va";
 
