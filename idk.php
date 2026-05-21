@@ -1,8 +1,11 @@
 <?php
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
 $host = "localhost";
 $dbname = "ita25pajula_like_dislike";
 $user = "ita25pajula_robin";
-$pass = "tAbasalu1212";
+$pass = "sinu_parool";
 
 $conn = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
 
@@ -16,9 +19,6 @@ $stmt = $conn->prepare("INSERT INTO SUVA (TEKST) VALUES (?)");
 $stmt->execute([$tekst]);
 
 echo json_encode(["ok" => true]);
-<?php
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
+Lae üles ja ava otse brauseris — nüüd peaks täpne viga nähtav olema!
 
-$host = "localhost";
-...
+
