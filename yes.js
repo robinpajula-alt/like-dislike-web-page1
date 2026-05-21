@@ -42,7 +42,7 @@ document.getElementById("dislikeConfirm").addEventListener("click", () => {
 
   const formData = new FormData();
   formData.append("tekst", reason);
-  fetch("api.php", {
+  fetch("idk.php", {
     method: "POST",
     body: formData
   });
