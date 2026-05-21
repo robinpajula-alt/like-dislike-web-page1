@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="text-thumbs">
+        <div class="text-box">
+          <h1 class="center-text">My trees are looking weird</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
+            mollitia pariatur possimus! Quos vitae veritatis itaque voluptatum,
+            voluptatibus odit, blanditiis ipsam dolorem nisi eligendi
+            accusantium!
+          </p>
+        </div>
+        <div class="thumbs">
+          <button onclick="thumbs_up_change(this)" class="thumbs-outline">
+            <i class="bi bi-hand-thumbs-up"></i>
+          </button>
+          <button onclick="thumbs_down_change(this)" class="thumbs-outline">
+            <i class="bi bi-hand-thumbs-down"></i>
+          </button>
+        </div>
+      </div>
+      <div class="text-thumbs">
+        <div class="text-box">
+          <h1 class="center-text">Wtf is going on in america?</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsa
+            nostrum ducimus quo, ipsam inventore in consequatur eum provident
+            atque nam qui sed! Iste, illum. Maxime nihil voluptatibus laudantium
+            ducimus.
+          </p>
+        </div>
+        <div class="thumbs">
+          <button onclick="thumbs_up_change(this)" class="thumbs-outline">
+            <i class="bi bi-hand-thumbs-up"></i>
+          </button>
+          <button onclick="thumbs_down_change(this)" class="thumbs-outline">
+            <i class="bi bi-hand-thumbs-down"></i>
+          </button>
+        </div>
+      </div>
+      <div class="text-thumbs">
+        <div class="text-box">
+          <h1 class="center-text">How to make peanut butter</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Dignissimos a dolorem facilis nisi eligendi expedita ratione
+            veritatis id ducimus, dolore cumque omnis? Sapiente corrupti animi
+            omnis consequatur id libero optio nihil maiores odio amet
+            reprehenderit in tempore vitae obcaecati officia, illum a
+            consequuntur velit officiis dicta cum. Assumenda architecto quam
+            minus, maiores tempora placeat illum doloribus sed voluptatibus,
+            animi aliquid?
+          </p>
+        </div>
+        <div class="thumbs">
+          <button onclick="thumbs_up_change(this)" class="thumbs-outline">
+            <i class="bi bi-hand-thumbs-up"></i>
+          </button>
+          <button onclick="thumbs_down_change(this)" class="thumbs-outline">
+            <i class="bi bi-hand-thumbs-down"></i>
+          </button>
+        </div>
+      </div>
+      <div id="dislikeModal" class="modal-overlay">
+        <div class="modal-box">
+          <h3>Miks dislaigid?</h3>
+          <textarea id="dislikeReason" placeholder="Sisesta põhjus..."></textarea>
+          <div class="modal-buttons">
+            <button id="dislikeCancel">Tühista</button>
+            <button id="dislikeConfirm">Kinnita</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="yes.js"></script>
+  </body>
+</html>
