@@ -4,8 +4,8 @@ error_reporting(E_ALL);
 
 $host = "127.0.0.1";
 $dbname = "ita25pajula_like_dislike";
-$user = "ita25pajula_robin";
-$pass = "-o;z+%)Not!j%{Va";
+$user = "ita25pajula_testi";
+$pass = "tAbasalu1212";
 
 $conn = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
 
