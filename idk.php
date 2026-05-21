@@ -2,7 +2,7 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-$host = "127.0.0.1";
+$host = "localhost";
 $dbname = "ita25pajula_like_dislike";
 $user = "ita25pajula_testi";
 $pass = "tAbasalu1212";
